@@ -11,4 +11,8 @@
 |Ver 1.0|C++, MFC, HTML5|2021/09/06 ~ 2021/09/10|초기 프로젝트 기획 및 개발|
 |Ver 1.1|C++, MFC, HTML5|2021/10/24 ~ 2021/10/25|노트북 고장으로 인하여 다시 프로그램 개발|
 |Ver 1.2|C++, MFC, HTML5|2021/12/12 |클린 코드를 위해 기능 별로 함수를 구현하려고 노력함|
-|Ver 2.0|C++, Windows Form, HTML5, CSS|2021/12/12 ~ ||
+|Ver 2.0|C++, Windows Form, HTML5, CSS|2021/12/12 ~ |[Web Page Editor ver 2.0_Readme](https://github.com/yeonseoksong/WebPage_Editor/blob/master/README_ver_2.0.md)|
+
+### README
+- [Web Page Editor ver 1.2](https://github.com/yeonseoksong/WebPage_Editor/blob/master/README_ver_1.2.md)
+- [Web Page Editor ver 2.0(개발 중)](https://github.com/yeonseoksong/WebPage_Editor/blob/master/README_ver_2.0.md)
