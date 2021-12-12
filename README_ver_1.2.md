@@ -16,6 +16,7 @@
 8. Main Menu - Information
 9. 결론 및 느낀 점
 10. 향후 계획
+11. 
 ---
 
 ### 1. 개발 배경
@@ -40,9 +41,46 @@
 ### 4. 웹 페이지의 구성 요소
 ![image](https://user-images.githubusercontent.com/49339278/145723082-15da0197-9239-4da4-8b04-c6c4c8793074.png)
 
-
 ### 5. 메뉴 구성
+- File : Open / Save / Exit
+- Edit : 머리말 / 내용 / 하이퍼링크 / 이미지
+- Information : Web Maker 정보 / 도움말
+
+![image](https://user-images.githubusercontent.com/49339278/145723144-6fdfed07-acd9-41e0-a6dc-84f1e638af14.png)
+- 기능 요약
+  - Page 구역에 있는 3개의 Edit Dialog을 합친 후, [만들기] 버튼을 클릭하여 HTML 파일을 저장한다.
+  - 페이지 제목을 입력한 후, EUC-KR 버튼을 클릭하면 Primary Edit Dialog에 ```<!DOCTYPE html>```, ```<html lang = "ko">```가 입력된다.
+  - 그리고 2번 Edit Dialog에 인코딩 정보(EUC-KR)와 페이지 제목이 입력된다.
+  - Content Edit Dialog에 값을 입력한 후, Edit 메뉴에 있는 머리말, 내용, 이미지 기능을 사용해 ```<body>``` Edit Dialog에 값을 입력할 수 있다.
+  - 하이퍼링크 내용과 주소를 각각 입력하여 Edit 메뉴에 있는 하이퍼링크 기능을 이용해 ```<body>``` Edit Dialog에 값을 입력할 수 있다.
+  
+- 상세 설명
+  
+  |번호|설명|
+  |:---:|:--|
+  |1|```<!DOCTYPE html>```과 ```<html>```이 담긴 Primary Edit Dialog, 수정이 불가능하다.|
+  |2|웹 페이지의 인코딩 방식과 페이지 제목을 입력 받는 Edit Dialog. 수정이 불가능하다.|
+  |3|웹 페이지의 내용을 입력 받는 Edit Dialog. 수정이 불가능하다.|
+  |4|웹 페이지의 내용을 입력할 수 있는 Edit Dialog.|
+  |5|하이퍼링크의 내용과 주소를 입력 받는 Edit Dialog.|
+  |6|페이지 제목을 입력 받는 Edit Dialog|
+  |7|페이지 제목과 EUC-KR 인코딩 방식을 '2'번 Edit Dialog에 입력하는 Radio Button|
+  |8|1과 2, 3의 Edit Dialog을 합쳐서 html 문서로 저장하는 버튼|
+  |9|프로그램의 종료 기능이 담긴 버튼|
+  
+![image](https://user-images.githubusercontent.com/49339278/145723347-42c71b6b-3eb4-43bc-8823-709a1d093fbe.png)
+
 ### 6. Main Menu - File
+- Open : txt File Open 및 Migration
+  ![image](https://user-images.githubusercontent.com/49339278/145723398-c3d2d059-9c39-4a68-bbd5-64fe0272794a.png)
+  ```C++
+  
+  ```
+- Save : Content Edit Dialog의 내용을 HTML 문서로 저장
+- Exit : 프로그램 종료
+
+
+  
 ### 7. Main Menu - Edit
 ### 8. Main Menu - Information
 ### 9. 결론 및 느낀 점
