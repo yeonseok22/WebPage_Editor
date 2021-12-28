@@ -76,11 +76,59 @@
   
   ```
 - Save : Content Edit Dialog의 내용을 HTML 문서로 저장
-- Exit : 프로그램 종료
-
-
+  ![image](https://user-images.githubusercontent.com/49339278/147534818-687e7e51-fcc4-4ce8-bcdd-119192131261.png)
+  ```C++
   
+  ```
+- Exit : 프로그램 종료
+  ```C++
+  
+  ```
+
 ### 7. Main Menu - Edit
+- 머리말 : ```<h1>```(가장 큰 글씨) ~ ```<h6>```(가장 작은 글씨) 태그
+![image](https://user-images.githubusercontent.com/49339278/147535014-e941de0f-3f2c-4f5e-8cf9-9ca95f6ff9d7.png)
+![image](https://user-images.githubusercontent.com/49339278/147535023-13fb3a1b-f991-4e45-acbd-39351ee43c5d.png)
+
+
+- 내용 : 내용 입력 기능 (```<p>``` 태그)
+![image](https://user-images.githubusercontent.com/49339278/147535055-8df7d09b-9135-4982-8f7f-32d8140a6a30.png)
+![image](https://user-images.githubusercontent.com/49339278/147535061-77a5f4a7-9dc2-4006-ac89-6909bcfd6737.png)
+
+
+- 하이퍼링크 : 하이퍼링크 생성 및 입력 기능 ```<a href "주소 URL"> 내용 </a>```
+![image](https://user-images.githubusercontent.com/49339278/147535072-c4d30abf-933c-4793-a936-c7fe4ddd839a.png)
+![image](https://user-images.githubusercontent.com/49339278/147535078-494601db-14ed-44e4-92b6-c5062326356a.png)
+
+
+- 이미지 : 웹 이미지 첨부하기 / 이미지 (비활성화) ```<img src = "주소">```
+![image](https://user-images.githubusercontent.com/49339278/147535122-b2327dfa-9370-428a-96ec-347dc513dae7.png)
+![image](https://user-images.githubusercontent.com/49339278/147535128-3858140f-e88f-40b6-988a-1b5f08be278f.png)
+![image](https://user-images.githubusercontent.com/49339278/147535132-a1fd5038-31cc-4d10-96e0-2f958da07899.png)
+
 ### 8. Main Menu - Information
-### 9. 결론 및 느낀 점
-### 10. 향후 계획
+- Web Maker 정보 : 프로그램 제작 버전, 제작자 등의 프로그램 정보가 담긴 Dialog 실행
+![image](https://user-images.githubusercontent.com/49339278/147535310-cdfe38cb-cc29-4fac-baea-d5011a6c08dd.png)
+
+- 도움말 : 프로그램 사용 방법이 작성된 Dialog 실행 (Ver 1.1 버전 이후 생략)
+
+### 9. [만들기] button
+![image](https://user-images.githubusercontent.com/49339278/147535430-c1005196-4b7d-4555-bd44-34558fe3db65.png)
+![image](https://user-images.githubusercontent.com/49339278/147535435-c2536b4f-d186-49c6-b552-91df395b0628.png)
+![image](https://user-images.githubusercontent.com/49339278/147535442-03f6fdd9-e0b3-45dc-a631-0981c1828be0.png)
+```C++
+
+```
+
+### 10. 결론 및 느낀 점
+- 초기 기획으로는 HTML과 CSS 기능을 구현하는 것이었으나, 5일이라는 짧은 개발 기간이 주어졌기 때문에 HTML 기능 일부분만을 구현할 수 있었다. 
+- 첫 프로그램 기획 및 개발 경험으로, 처음에 기획할 때 가능한지 아닌지 의문이 들었는데, 5일이라는 개발 기간 동안에 열심히 노력하다 보니, 원하는 프로그램을 개발할 수 있게 되었다.
+
+- 이 프로그램을 기획하게 된 배경으로, 대학교 때 웹 페이지를 개발했던 적이 있다. 이때 HTML과 CSS에 대해 전혀 모르는 상태였기 때문에 개발하는 데 힘들었던 적이 있었다. 그때 파워포인트 프로그램 처럼, HTML과 CSS 언어 없이도 웹페이지를 만들 수 있는 프로그램이 있으면 좋겠다는 생각을 하게 되었고, 우연히 기회가 생겨서 Web Page Editor 프로그램을 개발하게 되었다.
+
+- 이 경험을 통해서 개발자와 나의 성향이 일치한다는 사실을 알게 되었고, 불편한 점을 프로그램을 개발함으로써 해결하는 프로그램 개발자가 되겠다는 다짐하게 되었다.
+
+### 11. 향후 계획
+- 현재 MFC 프레임워크는 마이크로소프트에서 지원되지 않는 프레임워크라는 사실을 알게 되었다. 그리고 MFC를 사용하는 업체들은 있지만, 새로 개발하는 프로그램에 적용하는 것보다 유지보수하는 데 사용한다는 사실을 알게 되었다.
+- MFC와 달리 WinForm과 WPF, QT, 플러터 등 윈도우 애플리케이션을 개발할 수 있는 라이브러리는 매우 많았다. 여러 프레임워크의 특징을 살펴본 결과, Windows Form 라이브러리를 사용하여 프로그램을 개발하는 것이 효율적이라고 판단하였다.
+- 추가로 C++ 언어로 Windows Form 프레임워크를 이용할 수 있다는 확인하였다. 그런 점을 고려하였을 때, Ver 2.0 프로그램을 개발할 때 C++ 언어로 Windows Form 프레임워크를 사용하는 것으로 결정하였습니다.
