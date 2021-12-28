@@ -72,18 +72,9 @@
 ### 6. Main Menu - File
 - Open : txt File Open 및 Migration
   ![image](https://user-images.githubusercontent.com/49339278/145723398-c3d2d059-9c39-4a68-bbd5-64fe0272794a.png)
-  ```C++
-  
-  ```
 - Save : Content Edit Dialog의 내용을 HTML 문서로 저장
   ![image](https://user-images.githubusercontent.com/49339278/147534818-687e7e51-fcc4-4ce8-bcdd-119192131261.png)
-  ```C++
-  
-  ```
 - Exit : 프로그램 종료
-  ```C++
-  
-  ```
 
 ### 7. Main Menu - Edit
 - 머리말 : ```<h1>```(가장 큰 글씨) ~ ```<h6>```(가장 작은 글씨) 태그
